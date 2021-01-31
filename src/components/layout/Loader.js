@@ -1,0 +1,13 @@
+import React from 'react';
+
+/**
+ * Loading animation component
+ */
+export default class Loader extends React.Component {
+    render() {
+        return <div id="loader">
+            <div className="lds-ripple"/>
+        </div>
+    }
+
+}
